@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>VAAGDEVI ENGINEERING COLLEGE</title>
+<script type="text/javascript">
+function showhideDiv(ele) {
+var srcElement = document.getElementById(ele);
+if (srcElement != null) {
+if (srcElement.style.display == "block") {
+srcElement.style.display = 'none';
+}
+else {
+srcElement.style.display = 'block';
+}
+return false;
+}
+}
+
+function showhideDiv1(syl) {
+var srcElement = document.getElementById(syl);
+if (srcElement != null) {
+if (srcElement.style.display == "block") {
+srcElement.style.display = 'none';
+}
+else {
+srcElement.style.display = 'block';
+}
+return false;
+}
+}
+</script>
+</head>
+<body bgcolor="#F0E68C">
+<left> 
+<input type="button" value="HOME" onClick="showhideDiv('divMsg')"/><br><br>
+<div id="divMsg" style=" color: blue; height: 100px; width: 100px; text-align: center; display:none">
+</left>
+<left>
+<input type="button" value="ACADAMIC CALANDER" onClick="showhideDiv('divMsg1')"/><br><br>
+<div id="divMsg1" style=" color: blue; height: 100px; width: 100px; text-align: center; display:none">
+<button><a href="http://jntuh.ac.in/uploads/calendars/B.TECH_._I_YEAR_ACADEMIC_CALENDAR_-_2018-19_1.pdf" target="right">B.Tech 1YEAR</a></button>
+<button><a href="http://jntuh.ac.in/uploads/calendars/Academic_Calendar_2018_19_for_BTech_II_III_IV_years.pdf" target="right">B.Tech IIYR, IIIYR, IVYR</a></button>
+</div>
+</left>
+<left>
+<input type="button" value="SYLLABUS" onClick="showhideDiv('divMsg2')"/><br><br>
+<div id="divMsg2" style=" color: blue; height: 200px; width: 100px; text-align: center; display:none">
+<button><a href="http://jntuh.ac.in/uploads/academics/R18B.TechIYearSyllabusofEEECSEIT.pdf" target="right">R18 Syllabus</a></button>
+<button><a href="file:///C:/Users/home/Downloads/jntuh%20B.Tech._I_Sem._Syllabus%20for%20EEE,%20ECE,%20CSE,%20EIE,%20BME,%20IT,%20ETE,%20ECM,%20ICE.pdf" target="right">R16 IYR Syllabus</a></button>
+<button><a href="http://jntuh.ac.in/uploads/academics/COMPUTERSCIENCEENGG.pdf" target="right">R16 IIYR Syllabus</a></button>
+<button><a href="http://jntuh.ac.in/uploads/academics/R16B.TECHCSEIIIYearSyllabus.pdf" target="right">R16 IIIYR Syllabus</a></button>
+</div>
+</left>
+<left>
+<input type="button" value="LECTURER NOTES" onClick="showhideDiv('divMsg3')"/><br><br>
+<div id="divMsg3" style=" color: blue; height: 100px; width: 100px; text-align: center; display:none">
+</left>
+<script type="text/javascript">
+ function fun1(){ 
+ doucment.write(" <embed src="it.pdf" type="application/pdf" width="100%" height="600px" />");
+ return true;
+ }
+</script> 
+</body>
+</html>
